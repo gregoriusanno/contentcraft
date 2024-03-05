@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import * as BS from 'react-bootstrap';
 
 function App() {
   return (
-    <div className="App">
+    <>
+    <div className="App d-fle ">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,6 +22,7 @@ function App() {
         </a>
       </header>
     </div>
+    </>
   );
 }
 
